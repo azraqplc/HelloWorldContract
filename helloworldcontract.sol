@@ -19,7 +19,7 @@ contract HelloWorldContract {
             return "This is not the creator!!";
         }else {
             word = newWord;
-            return word;
+            return "This is the creator";
         }
     }
 }
